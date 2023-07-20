@@ -6,14 +6,11 @@ Widget MyAppBar(){
     title: Row(
       mainAxisAlignment: MainAxisAlignment.center,
       children: <Widget>[
-        Text(
-          "Flutter",
-          style:
-          TextStyle(color: Colors.black87, fontWeight: FontWeight.w600),
-        ),
-        Text(
-          "News",
-          style: TextStyle(color: Colors.blue, fontWeight: FontWeight.w600),
+        Center(
+          child: Text(
+            "News",
+            style: TextStyle(color: Colors.black, fontWeight: FontWeight.w900,fontSize: 35),
+          ),
         )
       ],
     ),
